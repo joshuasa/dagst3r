@@ -9,3 +9,9 @@ dependencies = [
     "dagster-dg-cli>=1.12.3",
     "dagster-webserver>=1.12.3",
 ]
+
+[tool.dg]
+directory_type = "project"
+
+[tool.dg.project]
+root_module = "dagst3r"
